@@ -1,0 +1,41 @@
+/* Tokens de diseño compartidos por el login y el panel. */
+:root {
+  /* Superficies y texto */
+  --bg: #05060c;
+  --surface: rgb(16 18 34 / 0.55);
+  --surface-strong: rgb(24 27 50 / 0.7);
+  --border: rgb(255 255 255 / 0.09);
+  --border-strong: rgb(255 255 255 / 0.18);
+  --text: #eef0ff;
+  --muted: #8a8fb0;
+
+  /* Acentos */
+  --accent: #8b5cf6;
+  --accent-2: #22d3ee;
+  --accent-gradient: linear-gradient(135deg, var(--accent), #6366f1 55%, var(--accent-2));
+
+  /* Estados */
+  --danger: #ff5d73;
+  --warning: #fbbf24;
+  --success: #34d399;
+
+  /* Formas y movimiento */
+  --radius: 22px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Sombras */
+  --shadow-card: 0 30px 80px -20px rgb(0 0 0 / 0.7);
+  --glow-accent: 0 12px 30px -10px rgb(139 92 246 / 0.8);
+
+  /* Capas (la escena 3D es 0 y la interfaz 1) */
+  --z-scene: 0;
+  --z-ui: 1;
+  --z-modal: 100;
+  --z-toast: 200;
+
+  /* Posición suavizada del ratón (-1 a 1), actualizada desde lib/pointer.js */
+  --px: 0;
+  --py: 0;
+}
